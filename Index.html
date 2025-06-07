@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quienes Somos</title>
+
+
+  <!------CSS----->
+    <Style>
+        *{
+          box-sizing: border-box;
+         }
+
+              /* Estilo de la pagina */
+
+        body {
+            font-family: Arial;
+            margin: 0;
+         }
+
+            /* Estilo de la pagina */
+
+        .header {
+          padding: 60px;
+          text-align: center;
+          background: rgb(15, 164, 15);
+          color: rgb(0, 0, 0);
+        }
+
+            /* Estilo de la barra de navegacion */
+
+        .navbar {
+          display: flex;
+          background-color: green;
+        }
+
+           /* Estilo de la barra de navegacion de los enlaces */
+
+        .navbar a {
+          color: rgb(0, 0, 0);
+          padding: 14px 20px;
+          text-decoration: none;
+          text-align: center;
+        }
+
+          /* cambiar color cuando paso mouse */
+
+        .navbar a:hover {
+          background-color: white;
+          color: rgb(22, 170, 45);
+        }
+
+           /* Contenedor de columna */
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+             /* Barra lateral */
+        .ok {
+          flex: 30%;
+          background-color: rgb(204, 175, 175);
+          padding: 20px;
+
+        }
+
+            /* Columna principal */
+        .main {
+          flex: 70%;
+          background-color: rgb(204, 175, 175);
+          padding: 20px;
+
+        }
+
+              /* Columna principal */
+
+        .imagen {
+          width: 100%;
+          padding: 20px; 
+
+        }
+                /* footer  */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background-color: rgb(29, 148, 29);
+            color: black;
+        }
+
+                  /*Dise;o web adaptable */
+         @media screen and (max-width: 700px) {
+            .row
+            .navbar {
+                flex-direction: column;
+            }
+        }     
+            
+    </Style>
+
+</head>
+
+<body>
+    <div>
+        <div style="background-color: rgb(16, 219, 100); padding-inline-start: 5px;">
+            <h4 style="text-align: center;">Bienvenidos a su pagina</h4>
+        </div>
+
+              <!------header-->
+            <div class="header">
+              <h1>Tienda gamer</h1>
+              <p><b>Se, Crea y Diviertete</b></p>
+            </div>
+
+            <!-------Barra de navegacion----->
+            <div class="navbar">
+              <a href="Index.html">Inicio</a>
+              <a href="Productos.html">Productos</a>
+              <a href="Contactos.html">Contactos</a>
+            </div>
+
+            <!-------contenido----->
+
+
+        <div class="row">
+           <div class="ok">
+             <h2>Hacerca de nosotros</h2>
+             <p>Somos una tienda donde puedes encontrar todo lo que estes buscando para tu entretenimiento, desde <strong>Pc a Consolas</strong></p>
+             <h5>Foto de la tienda</h5> 
+             <div class="imagen"> <img src="https://images.tcdn.com.br/img/img_prod/986221/papel_de_parede_infantil_game_over_gaming_verde_preto_8211000_2_8784592d276158ec048ec6950d2fdf0a.jpg" alt="muro" width="" height="200"></div>
+             <br>
+             <p>El gaming es el término que se utiliza para describir la actividad de jugar videojuegos. Va más allá de un simple pasatiempo: se ha convertido en una industria global, una forma de arte, y para muchos, un modo de vida. Desde las consolas clásicas como Nintendo y PlayStation, hasta los juegos móviles y las plataformas de PC, el gaming ha evolucionado constantemente gracias a la tecnología.</p>
+             <h3>Mas informaciones</h3>
+             <p>Hoy en día, millones de personas alrededor del mundo forman parte de la comunidad gamer. Ya sea jugando por diversión, compitiendo en torneos de eSports, o creando contenido en plataformas como YouTube y Twitch, el gaming une a personas de todas las edades y culturas.</p>
+             <div class="imagen"> <img src="https://as.com/esports/imagenes/2016/12/19/league_of_legends/1482129634_035945_1482129844_noticia_normal.jpg" alt="Torneo mundia" width="500"></div><br>
+             <div class="imagen"> <img src="https://i.ytimg.com/vi/_JMrhAi4Chg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAHvpDIbU4BaMTpH7d83CPhANKURg" alt="Menard" width="500"></div><br>
+             <div class="imagen"> <img src="https://playoffnations.com/wp-content/uploads/2021/11/IMG_6282.jpeg" alt="torneo" width="500"></div><br>
+            </div>
+        </div>
+        <div class="main">
+          <h2>CPU</h2>
+          <h5>Master Racer</h5>
+          <div class="imagen" style="height: 200px;"><img src="https://clonesyperifericos.com/wp-content/uploads/2025/02/Pc-gamer-legendario-2025.webp" alt="Pc Gamer" width="300" height="300"></div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p>Con avances como la realidad virtual (VR), la inteligencia artificial, y el metaverso, el futuro del gaming promete experiencias aún más inmersivas y personalizadas. Las barreras entre el juego y la vida real se están desdibujando, creando nuevas formas de interactuar, aprender y expresarse.</p>
+          <h2>Seguir Creciendo</h2>
+          <h5>Todos nosotros</h5>
+          <div class="imagen" style="height: 200px;"><img src="https://www.shutterstock.com/image-photo/portrait-smiling-young-woman-professional-260nw-2393612861.jpg" alt="Campeones"></div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+        </div>
+    </div>
+                 
+    <!-------footer----->
+    <div class="footer">
+        <h2>Todos los derechos reservados</h2>
+    </div>
+
+   
+
+
+  
+
+
+
+
+</body>
+</html>

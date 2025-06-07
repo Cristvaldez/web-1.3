@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+
+    <!----- Css -->
+<style>
+
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+  
+    header {
+        background-color: darkgreen;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 20px;
+        margin: 0;
+    }
+
+    nav li:hover {
+        margin-right: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .Productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .Producto {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        flex: 20px;
+        box-sizing: border-box;
+    }
+
+    .Producto img {
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0%;
+        width: 100%;
+    }
+</style>
+
+
+
+</head>
+<body>
+    <header>
+        <h1>Tienda Gamer</h1>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Productos.html">Productos</a></li>
+                <li><a href="Contactos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="Productos">
+        <article class="Producto">
+        <img src="https://www.amazon.es/GIGABYTE-Placa-Base-A520M-V2/dp/B0BXFBN121?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=4QTZ3P5V0YU2&dib=eyJ2IjoiMSJ9._6P1lfBB7RwM92-8k_jwtmX32QMsFgC9uh47Q6WJLd7UWBeiHgxnWuRsSZsZjl5cZ9VlahEB0cdypf3ZlCN2G1h-P2P1EE5fmfd0YBSxa6pe1drtkEhGgnOI1u5P1TX0PeBQVe9owtdXJg_MnlvqQvOp09_Z5YyT8X4Vy_N-Qaj9YiBac4shty3ly-YTeX-hcvCc_FXZPUAJfF0Jeu2Aw0q8eOy1AxprMwhVgEpq1suz8Tgm4c-trfjpHbI5iQGyffcWWXY46YT6xB785wWlEfF5bylq4z0KtHGYQSFOh88.MeauyMgrWzWFEMJf-6FVLpaPZTv-c8oFzX_VwEEegY4&dib_tag=se&keywords=Motherboard+amd&qid=1749069394&sprefix=motherboard+am%2Caps%2C199&sr=8-2" alt="GIGABYTE Placa Base A520M K V2">
+        <h2>GIGABYTE Placa Base A520M K V2 </h2>
+        <p>Compatible con CPUs AMD Ryzen Serie 5000 AM4, hasta 5100MHz DDR4 (OC), PCIe Gen3 x4 M.2, LAN GbE, USB 3.2 Gen 1</p>
+        <p>44,36 usd</p>
+        <button>Añadir al carro</button>
+            </article>
+
+        <article class="Producto">
+       <img src="https://www.amazon.es/AMD-7600X-Procesador-desenfrenados-Arquitectura/dp/B0BBJDS62N?crid=BHP4E8WZDTO9&dib=eyJ2IjoiMSJ9.vcjh98wfbebADz505M-Zkz74I48smCyJu-eTLRgl99PXjbrK2D6vLavJeeYIr9qxBeKmUTec4JHjvzYbBUzhHikhcPMqTdc7alwx2BQbdi7u6zqB2kE4WQFhhqnaHA7L_f_VjkZQZ7gkIQ-QcFn5n1b53fduT_VOPkOqlqpIKA5ea4PtBAXHmlGeenv_wKVVAz6c3SlSsRpVNynt_NVIXskvRVMo44jAGWj42bUbK2OugZOjozZK0z3kG5AfVtZvpczC1WLTXzYlDeuG-l7OdAXiaGVv8G4OO9n9qUt76mw.ylPnps8uSApMTa0HoOkqWrgx1mu3cYUhuTIu1Jd30jw&dib_tag=se&keywords=ryzen%2B5%2B7600x&qid=1749069635&sprefix=rizen%2Caps%2C377&sr=8-1&ufe=app_do%3Aamzn1.fos.5e544547-1f8e-4072-8c08-ed563e39fc7d&th=1" alt="AMD Ryzen 5 7600X Procesador ">
+        <h2>AMD Ryzen 5 7600X Procesador</h2>
+        <p>(tarjeta gráfica Radeon integrada, 6 núcleos/12 threads, 105W TDP,Socket AM5, 38MB Caché, Reloj de aumento máx. hasta 5.3 GHz, sin ventilador)</p>
+        <p>198,59 usd</p>
+        <button>Añadir al carro</button>
+          </article>
+
+        <article class="Producto">
+       <img src="https://www.amazon.es/Corsair-Vengeance-2x16GB-PC4-28800-Optimized/dp/B082DGZJ9C?crid=181NMHKT3UOPE&dib=eyJ2IjoiMSJ9.PyoFKd7S4ljtAVkGsvd4b3UCCfRvpEkVo11s7-iLqmBs89GkJXKjXJZ06L6lNqqjhjqd4GhdWE1jrfgcvo_Cya2yug_z0tRUuDMbZyga3NWqzDKqDKlh71fA-5JDW60dwrWajuyEQdOkV2Y_o4a2pgrLdcaeRAm07KOnvY-by3Q4e5oJlq4RFavKDvNAr2USGXg5Dq5G4f3ZVuVybI8UA3ovJASX_fEBM8dY91eGOvwbAbTW4yf4QvMukarIw8TZwx5N9tZfpJh2rbAOWk8057IgoJdELZtAsfS4KYxjM7g._Go6nDJ0eXi7dckQIqMOLs3ha2rBhS-TaG1mtlgV8aI&dib_tag=se&keywords=memoria%2Bram&qid=1749069820&sprefix=memorias%2B%2Caps%2C236&sr=8-5&th=1" alt="Corsair Vengeance RGB Pro 32 GB">
+        <h2>Corsair Vengeance RGB Pro 32 GB</h2>
+        <p> (2 x 16 GB) DDR4 3600 MHz C18, Kit de Memoria de Alto Rendimiento (AMD optimizado), Ordenador de escritorio, Negro</p>
+        <p>100,59 usd</p>
+        <button>Añadir al carro</button>
+          </article>
+
+        <article class="Producto">
+       <img src="https://www.amazon.es/Gigabyte-AORUS-GeForce-Tarjeta-Gr%C3%A1fica/dp/B0F4NHF442?crid=1KNPHSQ1O5CBW&dib=eyJ2IjoiMSJ9.ligybjWV9Vy75neLLYvCPOHkewYDlSWLPILc5jzvQhSqmWdDtGkEPuSoXQP7LdghghHF_f30qTSJvDU3dAd-jspl5G3pqC4aePZenWP8UmQM8ZpJI06pqXIvn7k4DVDtKRwLg0cxx1n7T04KHVd2HhQW6QJgh1-5qFufmKMdVCzyg152G08fjX1H5kUz01OB-_P6X2akyWFFIY--fuynlZhWWNcgH_-RI_bGTN520elDefzzrgYaTvm1zPPiTw4-lwQp1RMdxPeL0LRvFgdEv01Q12kF4clrV6tPxBRY9Rw.D1uB4paOZO5DRx3xl-DyoYuf8Zhxg7M2xDnI8I6YpB0&dib_tag=se&keywords=tarjeta+grafica+gaming&qid=1749069990&sprefix=targeta+gra%2Caps%2C311&sr=8-41&ufe=app_do%3Aamzn1.fos.5e544547-1f8e-4072-8c08-ed563e39fc7d" alt="Gigabyte AORUS GeForce RTX 5060 Ti">
+        <h2>Gigabyte AORUS GeForce RTX 5060 Ti</h2>
+        <p>Elite 16G Tarjeta Gráfica – 16 GB GDDR7, 128 bits, PCI-E 5.0, 2722 MHz Frecuencia del núcleo, 3 x DisplayPort, 1 x HDMI, GV-N506TAORUS E-16GD</p>
+        <p>358,59 usd</p>
+        <button>Añadir al carro</button>
+          </article>
+
+        <article class="Producto">
+      <img src="https://www.amazon.es/PZDO-Ergon%C3%B3mico-Ordenador-Reposapi%C3%A9s-Tecnolog%C3%ADa/dp/B0CW194YT9?crid=317AS66P31GEF&dib=eyJ2IjoiMSJ9.wjUa7HJWDnXAGisI2d4Y6nKx0sEjwLN_una25X883jZa9zVe6iJ4sayjTwCOdyRlO4Gdcjmkhs_6AXvzikUUdZrt9tuOF4IyHtiY4FBf0-FrxJeDgNvIKe_YAeyJY8YBvxo1CD48QHSGiQsMnd_9EMn5aIPPsItGI6rieu8xE4MO1woD9gQG4ignpalYkQccyBFhZEwV3SwOJSolFJVXD_aZM0PVX-5HRiIIl46Ktrvf2qMjuQ458W-K7pgSYGeQBIE6M1J64eC_iZ7bD54b5_dlqvHyuJd-r_srb3tVLIo.xHd0U4ZclsARdRGiUqvwpRe6kO8Zrd1L4fiTFYshdLI&dib_tag=se&keywords=silla%2Bgaming&qid=1749070139&sprefix=silla%2Caps%2C206&sr=8-7&th=1" alt="PZDO Sillas Gaming Ergonómico Silla Gamer">
+        <h2>PZDO Sillas Gaming Ergonómico Silla Gamer</h2>
+        <p>para Adulto, PC Silla Ordenador Oficina con Reposapiés Cadeira Gaming Tela de Alta Tecnología, 150kg, Regalo(Azul)</p>
+        <p>285,99 usd</p>
+        <button>Añadir al carro</button>
+         </article
+       
+    </section>    
+
+    
+
+    <footer>
+        <p>&copy; 2025 Tienda online</p>
+    </footer>
+
+
+
+
+</body>
+</html>
